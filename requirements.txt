@@ -1,2 +1,2 @@
-uvicorn~=0.15.0
-
+selenium
+pytest
