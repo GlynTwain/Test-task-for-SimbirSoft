@@ -1,4 +1,4 @@
-# Test-task-for-Simbirsoft
+# Test-task-for-SimbirSoft
 Тестовое задание от SimbirSoft на позицию QA Automation Enginer
 
 Python - Selenium - PageObject
