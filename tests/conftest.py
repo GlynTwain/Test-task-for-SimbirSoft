@@ -6,9 +6,8 @@ from selenium import webdriver
 
 @pytest.fixture(scope="session")
 def browser():
-    # driver = webdriver.Chrome(executable_path=os.getcwd() + '/drivers/chromedriver')
-    driver = webdriver.Chrome(executable_path='/home/glyntwain/Документы/Test-task-for-SimbirSoft/drivers/chromedriver')
-
+    path_driver = os.path.abspath('../drivers/chromedriver')
+    driver = webdriver.Chrome(executable_path=path_driver)
     yield driver
     driver.close()
     driver.quit()

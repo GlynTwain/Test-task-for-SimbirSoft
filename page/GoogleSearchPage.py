@@ -5,8 +5,9 @@ from page.BasePage import BasePage
 
 
 class GS_Locators:
-    LOCATOR_GOOGLE_SEARCH_FIELD = (By.XPATH, "//input[@name='q']")
-    LOCATOR_GOOGLE_SEARCH_BUTTON = (By.XPATH, "(//input[@name='btnK'])[1]")  # (By.CLASS_NAME, "gNO89b")
+    LOCATOR_GOOGLE_SEARCH_FIELD = (By.XPATH, "/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input")
+    LOCATOR_GOOGLE_SEARCH_BUTTON = (By.XPATH,
+                                    "/html/body/div[1]/div[3]/form/div[1]/div[1]/div[2]/div[2]/div[5]/center/input[1]")
 
 
 class GoogleSearch(BasePage):
